@@ -1,0 +1,13 @@
+{
+  "name": "Drosera Dev",
+  "image": "mcr.microsoft.com/devcontainers/go:1.21-bullseye",
+  "features": {
+    "git": "latest"
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["golang.go"]
+    }
+  }
+}
